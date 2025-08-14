@@ -35,8 +35,8 @@ const projectsData = [
     title: 'Portfolio Website',
     description: 'Responsive personal portfolio website showcasing skills, projects, and achievements with modern design and smooth animations.',
     tech: ['React', 'Tailwind CSS', 'JavaScript', 'Responsive Design'],
-    github: 'https://github.com/MPARSURAM99/my-portfolio',
-    live: 'https://my-portfolio-six-phi-40.vercel.app',
+    github: 'https://github.com/MPARSURAM99/myStaticportfolio',
+    live: 'https://mparsuram.vercel.app',
     image: '/projects/portfolio.jpg',
     featured: false
   }

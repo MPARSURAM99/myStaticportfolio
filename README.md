@@ -1,36 +1,37 @@
-# myStaticportfolio
 # 🌐 Personal Portfolio Website
 
-A responsive and interactive **Personal Portfolio Website** to showcase my web development skills, projects, and contact details.  
-Built using **HTML**, **CSS**, and **JavaScript**.
+![Portfolio Screenshot](./screenshot.png) <!-- Optional: Add a screenshot of your site -->
+
+## 📌 Overview
+This is my **ultra-modern, highly animated, and fully responsive personal portfolio website** built with **Next.js** and **Framer Motion**.  
+It showcases my skills, projects, education, and achievements as a **Full Stack Developer**.
+
+🚀 **Live Demo**: [https://mparsuram.vercel.app](https://mparsuram.vercel.app)  
+📧 **Contact**: mparsuram99@gmail.com  
+
+---
+
+## 🛠 Tech Stack
+
+- **Framework:** [Next.js](https://nextjs.org/)
+- **Styling:** Tailwind CSS, Custom CSS
+- **Animations:** Framer Motion
+- **Icons:** Lucide React
+- **Hosting:** [Vercel](https://vercel.com/)
+- **Version Control:** Git & GitHub
 
 ---
 
 ## ✨ Features
 
-- **Responsive Design** – Works seamlessly on desktop, tablet, and mobile.
-- **Smooth Navigation** – Easy-to-use navigation bar with section scrolling.
-- **Projects Showcase** – Highlights my work with descriptions and links.
-- **About Me Section** – Quick intro about my skills and experience.
-- **Contact Form** – Simple form to connect with me.
-- **Animations & Transitions** – Engaging UI using CSS animations and JavaScript effects.
-
----
-
-## 🛠️ Tech Stack
-
-- **HTML5** – Structure & content
-- **CSS3** – Styling & responsive design
-- **JavaScript (ES6)** – Interactivity & DOM manipulation
+- **Modern UI/UX** with smooth animations
+- **Responsive Design** for all devices
+- **Animated Sections** powered by Framer Motion
+- **Project Showcase** with live links and GitHub repos
+- **Resume Download** button linked to Google Drive
+- **Optimized for Performance & SEO**
 
 ---
 
 ## 📂 Project Structure
 
-```plaintext
-📦 portfolio-website
- ┣ 📂 assets        # Images, icons, and other media
- ┣ 📂 css           # Stylesheets
- ┣ 📂 js            # JavaScript files
- ┣ 📜 index.html    # Main HTML file
- ┗ 📜 README.md     # Project documentation
