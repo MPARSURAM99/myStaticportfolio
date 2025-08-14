@@ -60,22 +60,22 @@ export default function About() {
             </motion.div> */}
 
             {/* Profile Image */}
-<motion.div variants={itemVariants} className="relative">
-  <div className="relative mx-auto w-80 h-80 lg:w-96 lg:h-96">
-    <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-2xl rotate-6"></div>
-    <div className="relative bg-secondary/50 backdrop-blur-sm border border-border/50 rounded-2xl p-4 h-full flex items-center justify-center">
-      <div className="w-full h-full bg-gradient-to-br from-blue-500/10 to-purple-500/10 rounded-xl flex items-center justify-center overflow-hidden">
-        <Image
-          src="/profile.png" // Path to your image in public folder
-          alt="PARSURAM MAHARANA"
-          width={300} // Adjust size
-          height={300}
-          className="rounded-xl object-cover"
-        />
-      </div>
-    </div>
-  </div>
-</motion.div>
+            <motion.div variants={itemVariants} className="relative">
+              <div className="relative mx-auto w-80 h-80 lg:w-96 lg:h-96">
+                <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-2xl rotate-6"></div>
+                <div className="relative bg-secondary/50 backdrop-blur-sm border border-border/50 rounded-2xl p-4 h-full flex items-center justify-center">
+                  <div className="w-full h-full bg-gradient-to-br from-blue-500/10 to-purple-500/10 rounded-xl flex items-center justify-center overflow-hidden">
+                    <Image
+                      src="/profile.png" // Path to your image in public folder
+                      alt="PARSURAM MAHARANA"
+                      width={300} // Adjust size
+                      height={300}
+                      className="rounded-xl object-cover"
+                    />
+                  </div>
+                </div>
+              </div>
+            </motion.div>
 
 
             {/* About Content */}
@@ -86,13 +86,13 @@ export default function About() {
                   Professional Summary
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  I'm a dedicated Full Stack Developer currently pursuing B.Tech in Computer Science 
-                  at Centurion University. With a strong foundation in Java, Spring Boot, Angular, 
+                  I'm a dedicated Full Stack Developer currently pursuing B.Tech in Computer Science
+                  at Centurion University. With a strong foundation in Java, Spring Boot, Angular,
                   and MERN stack technologies, I build scalable and efficient web applications.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  My journey started with medical laboratory technology, but my passion for coding 
-                  and problem-solving led me to transition into software development. I've successfully 
+                  My journey started with medical laboratory technology, but my passion for coding
+                  and problem-solving led me to transition into software development. I've successfully
                   built multiple real-world projects and continue to expand my skillset with cutting-edge technologies.
                 </p>
               </div>
