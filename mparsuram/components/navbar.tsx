@@ -73,7 +73,7 @@ export default function Navbar() {
             whileHover={{ scale: 1.05 }}
             className="text-xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent"
           >
-            PARSURAM
+            MPARSURAM
           </motion.div>
 
           {/* Desktop Navigation */}
