@@ -30,7 +30,7 @@ export default function Contact() {
         ...data,
         date: new Date().toLocaleString() // Add date/time
       };
-      const response = await fetch('https://sheetdb.io/api/v1/lf9r95v6z1lq2', {
+      const response = await fetch(process.env.NEXT_PUBLIC_SHEETDB_API as string, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ data: [submission] })
