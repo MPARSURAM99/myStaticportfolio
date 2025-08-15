@@ -1,6 +1,6 @@
 # 🌐 Personal Portfolio Website
 
-![Portfolio Screenshot](./screenshot.png) <!-- Optional: Add a screenshot of your site -->
+![Portfolio Screenshot](herosection.png) <!-- Optional: Add a screenshot of your site -->
 
 ## 📌 Overview
 This is my **ultra-modern, highly animated, and fully responsive personal portfolio website** built with **Next.js** and **Framer Motion**.  
