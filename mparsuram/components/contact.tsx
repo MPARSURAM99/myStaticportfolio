@@ -25,14 +25,22 @@ export default function Contact() {
 
   const onSubmit = async (data: FormData) => {
     setIsSubmitting(true);
-    
     try {
-      // Simulate form submission
-      await new Promise(resolve => setTimeout(resolve, 2000));
-      
-      console.log('Form submitted:', data);
-      setSubmitStatus('success');
-      reset();
+      const submission = {
+        ...data,
+        date: new Date().toLocaleString() // Add date/time
+      };
+      const response = await fetch('https://sheetdb.io/api/v1/lf9r95v6z1lq2', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ data: [submission] })
+      });
+      if (response.ok) {
+        setSubmitStatus('success');
+        reset();
+      } else {
+        setSubmitStatus('error');
+      }
     } catch (error) {
       setSubmitStatus('error');
     } finally {
@@ -130,8 +138,8 @@ export default function Contact() {
               <div>
                 <h3 className="text-2xl font-semibold mb-6">Let's Connect</h3>
                 <p className="text-muted-foreground leading-relaxed mb-8">
-                  I'm currently looking for new opportunities as a Full Stack Developer. 
-                  Whether you have a project in mind, want to discuss technology, or just say hello, 
+                  I'm currently looking for new opportunities as a Full Stack Developer.
+                  Whether you have a project in mind, want to discuss technology, or just say hello,
                   I'd love to hear from you.
                 </p>
               </div>
@@ -189,7 +197,7 @@ export default function Contact() {
             <motion.div variants={itemVariants}>
               <div className="bg-background/50 backdrop-blur-sm border border-border/50 rounded-xl p-8 shadow-lg">
                 <h3 className="text-2xl font-semibold mb-6">Send Message</h3>
-                
+
                 <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
